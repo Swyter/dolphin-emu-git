@@ -50,4 +50,4 @@ script:
   - git config --global user.email "swyterzone+dolphin-emu-git-bot@gmail.com"
   - git config --global user.name  "travis-ci bot"
   - git commit -am "Committed by travis-ci on `date`"
-- git push origin gh-pages
+  - git push origin gh-pages
